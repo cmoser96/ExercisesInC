@@ -1,3 +1,8 @@
+/*
+	@author Carl Moser
+	This software is based off of the unix tee command
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
