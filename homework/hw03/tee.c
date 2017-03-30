@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+/*
+	3. The options slowed me down a lot. The count of the arguments was difficult
+	to get correct.
+	4. The professional code has a lot more error checking than my solution.
+*/
+
 int main(int argc, char *argv[]){
 	char buffer[128]; // Buffer for the input
 	int append = 0; // Flag for appending
